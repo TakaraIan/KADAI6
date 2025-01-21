@@ -38,7 +38,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'Main.java'
+    mainClass = 'Main'
 }
 
 tasks.named('test') {
@@ -49,7 +49,7 @@ tasks.named('test') {
 tasks.withType(Jar) {
     manifest {
         attributes(
-            'Main-Class': 'Main.java' // Correct class name here
+            'Main-Class': 'Main' // Correct class name here
         )
     }
 }

@@ -6,7 +6,7 @@ import java.awt.*;
 /**
  * じゃんけんゲームのユーザーインターフェースを作成するクラス
  */
-public class JankenGameGUI {
+public class Main {
     private static final String[] IMAGE_PATHS = {"rock.png", "scissors.png", "paper.png"};
     private static final int IMAGE_WIDTH = 250;
     private static final int IMAGE_HEIGHT = 250;
